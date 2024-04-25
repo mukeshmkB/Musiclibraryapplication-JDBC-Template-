@@ -1,4 +1,4 @@
-Given five files,
+five files,
 
 - `SongController.java` 
 - `SongRepository.java`
@@ -6,41 +6,9 @@ Given five files,
 - `SongRowMapper.java`
 - `Song.java`
 
-And also given a database file `songs` which contains `PLAYLIST` table.
 
-#### PLAYLIST table
 
-|    Columns    |  Type   |
-| :-----------: | :-----: |
-|    songId     | INTEGER |
-|   songName    |  TEXT   |
-|   lyricist    |  TEXT   |
-|    singer     |  TEXT   |
-| musicDirector |  TEXT   |
-
-<SingleLineNote>
-
-    Use only PLAYLIST as a table name in your code while writing queries
-</SingleLineNote>
-
-### Completion Instructions
-
-- `Song.java`: The `Song` class should contain the following attributes.
-
-  |   Attribute   |  Type  |
-  | :-----------: | :----: |
-  |    songId     |  int   |
-  |   songName    | String |
-  |   lyricist    | String |
-  |    singer     | String |
-  | musicDirector | String |
-
-- `SongRepository.java`: Create an interface containing required methods.
-- `SongService.java`: Update the service class with logic for managing song data.
-- `SongController`: Create the controller class to handle HTTP requests.
-- `SongRowMapper.java`: Create a class which implements the `Rowmapper Interface`.
-
-Implement the following APIs.
+Implemented APIs.
 
 ### API 1
 
